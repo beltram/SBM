@@ -1,0 +1,13 @@
+sbm:
+    resource: "@SBMBundle/Resources/config/routing.yml"
+    prefix:   /sbm
+    
+login:
+    pattern: /login
+    defaults: { _controller: SBMBundle:Secured:login }
+    
+login_check:
+    pattern: /login_check
+    
+logout:
+    pattern: /logout

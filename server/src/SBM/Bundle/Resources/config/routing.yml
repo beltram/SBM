@@ -1,0 +1,20 @@
+sbm_homepage:
+    path:     /home/{name}
+    defaults: { _controller: SBMBundle:Default:index }
+    
+sbm_add:
+    path:     /add
+    defaults: { _controller: SBMBundle:Add:index }
+    
+sbm_fetch:
+    path:     /fetch/{type}
+    defaults: { _controller: SBMBundle:Fetch:index }
+    
+sbm_login: 
+    path: /login/create
+    defaults: { _controller: SBMBundle:Account:register }
+    
+sbm_submit: 
+    path: /submit
+    defaults: { _controller: SBMBundle:Secured:create }
+

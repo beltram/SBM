@@ -1,0 +1,10 @@
+{
+  "name": "smartbrowsermotionner",
+  "title": "SmartBrowserMotionner",
+  "id": "jid1-tve1xsy2eKCUaQ",
+  "description": "Un gestionnaire de favoris intelligent",
+  "author": "Beltram",
+  "license": "MPL 2.0",
+  "version": "1.0",
+  "permissions": {"private-browsing": false}
+}

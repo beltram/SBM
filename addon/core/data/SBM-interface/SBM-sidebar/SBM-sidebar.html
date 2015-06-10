@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="SBM-sidebar.js"></script>
+<link href="SBM-sidebar.css" type="text/css" rel="stylesheet">
+<link href="bootstrap.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid" style="float: left; width: 100%;">
+		<div class="dropdown">
+			<button class="btn btn-warning dropdown-toggle sbm-btn" type="button" style="margin-top:5px"
+				id="dropdownMenu1" data-toggle="dropdown" aria-expanded="false">
+				Trier par <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				<li class="sbm-li" role="presentation"><a
+					onclick="onButtonClick(this)" role="menuitem" tabindex="-1"
+					value="http://localhost:8000/app_dev.php/sbm/update/tri/date">Date</a></li>
+				<li class="sbm-li" role="presentation"><a
+					onclick="onButtonClick(this)" role="menuitem" tabindex="-1"
+					value="http://localhost:8000/app_dev.php/sbm/update/tri/pertinence">Pertinence</a></li>
+				<li class="sbm-li" role="presentation"><a
+					onclick="onButtonClick(this)" role="menuitem" tabindex="-1"
+					value="http://localhost:8000/app_dev.php/sbm/update/tri/nbvisits">Nombre
+						de visites</a></li>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<button class="btn btn-info dropdown-toggle sbm-btn" type="button"
+				id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+				Filtrer selon <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+				<li class="sbm-li" role="presentation"><a
+					onclick="onButtonClick(this)" role="menuitem" tabindex="-1"
+					value="http://localhost:8000/app_dev.php/sbm/update/filter/date">Date</a></li>
+				<li class="sbm-li" role="presentation"><a
+					onclick="onButtonClick(this)" role="menuitem" tabindex="-1"
+					value="http://localhost:8000/app_dev.php/sbm/update/filter/position">Ma
+						position</a></li>
+				<li class="sbm-li" role="presentation"><a
+					onclick="onButtonClick(this)" role="menuitem" tabindex="-1"
+					value="http://localhost:8000/app_dev.php/sbm/update/filter/friends">Visité
+						par mes amis</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{# src/SBM/Bundle/Resources/views/Account/register.html.twig #}
+<form action="{{ path('sbm_submit')}}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+
+    <input type="submit" />
+</form>

@@ -1,0 +1,15 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+a .sbm-panel-button {
+	width:80%;
+	height:60px;
+	position:relative;
+	display:inline;
+	margin:0 auto;
+	left:10%;
+	margin-top:10%;
+}
